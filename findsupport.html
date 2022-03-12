@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MentalTea-FindSupport</title>
+    <style>
+        .hg{
+            box-shadow: 0 2px 12px 0 rgb(0 0 0 / 20%);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 30px;
+        }
+        .name input::placeholder{
+            color: #718096;
+        }
+        .button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #806bcd;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+        
+    </style>
+    <style>
+       
+      nav a{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-size: large;
+      }
+body{
+  background-color: rgb(245 245 245);
+}
+</style>
+
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+           <img src="images/123.jpg" height="100" width="100" alt="">
+            <span class="ml-3 text-xl">MentalTea</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+            <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="stories.html" class="mr-5 hover:text-gray-900">Stories</a>
+            <a href="findsupport.html" class="mr-5 hover:text-gray-900">Find Support</a>
+            <a href="podcast.html" class="mr-5 hover:text-gray-900">Podcast</a>
+            <a href="about%20us.html" class="mr-5 hover:text-gray-900">About Us</a>
+          </nav>
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+           
+          </div>
+        </div>
+      </header>
+      <div class="container px-5 py-24 mx-auto"> 
+         <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0"><b>Find Support</b></h1>
+            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Find our experts who will help you in your tough time by explainig what mental health problems are, what may cause them, and the many different kinds of help, treatment and support that are available.</p>
+          </div>
+        </div>
+      <section class="text-gray-600 body-font">
+         <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col"> 
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="images/Therapy.jpg" margin="20%">
+     
+          <div class="text-center lg:w-2/3 w-full"> 
+           <p><h2>Professional support comes in many forms and can help you on your journey to finding happiness, accepting change, or with a specific issue or illness you’re facing.
+           Here at Happiful, we understand that seeking support for your mental health is a big step and, more specifically, finding the right person who can help can be a challenge.</h2><br>
+            <h4>If you’re ready to find help, then you’re already proactively looking after yourself and those around you - and that’s a huge achievement. But, we’re all different. Therefore, the support and help that works for each of us will be different, too.</h4>
+        </p>
+        <br>
+        <h2 id="crisis-support"><b>CRISIS SUPPORT </b></h2>
+        <p>If you’re ready to find help, then you’re already proactively looking after yourself and those around you - and that’s a huge achievement. But, we’re all different. Therefore, the support and help that works for each of us will be different, too.</p>
+        <br>
+        <p>If you are in immediate danger of harming yourself or others, or finding yourself at crisis point, call 999.If you need immediate, free advice or someone to speak to, you can call SPK GROUPS on 199 123 or email them at <a href="SPK@gmail.com">SPK</a>.</p><br>
+        <h3 id="find-a-professional"><b>FIND A PROFESSIONAL</b>
+        </h3>
+        <p>Connect with our wellness experts. Use the drop-down box to select the type of professional you'd like to contact. Browse profiles and when you find someone you resonate with, simply send them an email.</p><br>
+        <div class=hg>
+      <form action="" style="border: 5cm; text-align: center; ">
+      
+         <p><b>Find the right therapist for you.</b></p><br>
+        <p>Type of professional*:
+         <select name="Card" id="" style="background-color: lightgray; ">
+             <option value="">Counsellor</option>
+             <option value="">Therapist</option>
+             <option value="">Hypnotherapist</option>
+             <option value="">Life Coach</option>
+             <option value="">Nutritionist</option>
+         </select>
+     </p>
+     <br>
+     <div class="email">
+   
+     <p>Email *:   <i class="fa fa-envelope" aria-hidden="true"></i>
+      <input type="text" required id="email" placeholder=" ENTER EMAIL ID" style="background-color: lightgray;"></p>
+    </div>
+     <p>
+         <br>
+         Location* :
+         <i class="fa fa-map-marker" aria-hidden="true"></i>
+         <input type="text" placeholder="    LOCATION    " required style="background-color: lightgrey;">
+         </div>
+     </p>
+    <div class="button">
+        <button id="send" onclick="alert('We will contact you soon via your email. Have a nice day!!:))')">Send</button>
+  </div>
+    </form>
+    
+</div>
+</div>
+</div>
+</section>
+<footer class="text-gray-600 body-font">
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center order-first">
+        
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Home</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Stories</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Find Support</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Podcast</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">About Us</a>
+            </li>
+          </nav>
+        </div>
+        
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4" style="margin-left:500px;">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE TO OUR NEWSLETTER</h2>
+          <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button onclick="alert('You have subscribed successfully!')"class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Subscribe</button>
+          </div>
+          <p class="text-gray-500 text-sm mt-2 md:text-left text-center">By clicking on subscribe, I agree to receive 
+            <br class="lg:block hidden"> all the mails, stories and notifications
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-100">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          
+          <span class="ml-3 text-xl">MentalTea</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 MentalTea —
+          <a  rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@mental_tea</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            
+          </a>
+          <a class="ml-3 text-gray-500">
+            
+          </a>
+          <a class="ml-3 text-gray-500">
+            <img src="images/123.jpg" height="100" width="100">
+          </a>
+          <a class="ml-3 text-gray-500">
+            
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
